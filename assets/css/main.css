@@ -12,19 +12,19 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-    --default-font: 'Roboto', system-ui, -apple-system, 'Segoe UI', Roboto,
-        'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif,
-        'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
-        'Noto Color Emoji';
-    --heading-font: 'Raleway', sans-serif;
-    --nav-font: 'Poppins', sans-serif;
+    --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+    --heading-font: "Raleway", sans-serif;
+    --nav-font: "Poppins", sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root {
     --background-color: #ffffff; /* Background color for the entire website, including individual sections */
     --default-color: #555555; /* Default color used for the majority of the text content across the entire website */
-    --heading-color: #1e4356; /* Color for headings, subheadings and title throughout the website */
+    --heading-color: #5f4b8bff; /* Color for headings, subheadings and title throughout the website */
     --accent-color: #68a4c4; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
     --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
     --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
@@ -48,7 +48,7 @@
 }
 
 .dark-background {
-    --background-color: #1e4356;
+    --background-color: #5f4b8bff;
     --default-color: #ffffff;
     --heading-color: #ffffff;
     --surface-color: #284e62;
@@ -121,7 +121,7 @@ h6 {
 }
 
 .php-email-form .loading:before {
-    content: '';
+    content: "";
     display: inline-block;
     border-radius: 50%;
     width: 24px;
@@ -158,7 +158,7 @@ h6 {
 }
 
 .pulsating-play-btn:before {
-    content: '';
+    content: "";
     position: absolute;
     width: 120px;
     height: 120px;
@@ -176,7 +176,7 @@ h6 {
 }
 
 .pulsating-play-btn:after {
-    content: '';
+    content: "";
     position: absolute;
     left: 50%;
     top: 50%;
@@ -191,7 +191,7 @@ h6 {
 }
 
 .pulsating-play-btn:hover:before {
-    content: '';
+    content: "";
     position: absolute;
     left: 50%;
     top: 50%;
@@ -257,7 +257,7 @@ h6 {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-    --background-color: #1e4356;
+    --background-color: #5f4b8bff;
 }
 
 /*--------------------------------------------------------------
@@ -539,7 +539,7 @@ h6 {
     border-color: var(--accent-color);
 }
 
-.footer .footer-newsletter .newsletter-form input[type='email'] {
+.footer .footer-newsletter .newsletter-form input[type="email"] {
     border: 0;
     padding: 4px;
     width: 100%;
@@ -547,11 +547,11 @@ h6 {
     color: var(--default-color);
 }
 
-.footer .footer-newsletter .newsletter-form input[type='email']:focus-visible {
+.footer .footer-newsletter .newsletter-form input[type="email"]:focus-visible {
     outline: none;
 }
 
-.footer .footer-newsletter .newsletter-form input[type='submit'] {
+.footer .footer-newsletter .newsletter-form input[type="submit"] {
     border: 0;
     font-size: 16px;
     padding: 0 20px;
@@ -562,7 +562,7 @@ h6 {
     border-radius: 50px;
 }
 
-.footer .footer-newsletter .newsletter-form input[type='submit']:hover {
+.footer .footer-newsletter .newsletter-form input[type="submit"]:hover {
     background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
@@ -672,7 +672,7 @@ h6 {
 }
 
 #preloader:before {
-    content: '';
+    content: "";
     position: fixed;
     top: calc(50% - 30px);
     left: calc(50% - 30px);
@@ -749,7 +749,7 @@ h6 {
 }
 
 .page-title:before {
-    content: '';
+    content: "";
     background-color: color-mix(
         in srgb,
         var(--background-color),
@@ -781,7 +781,7 @@ h6 {
 }
 
 .page-title .breadcrumbs ol li + li::before {
-    content: '/';
+    content: "/";
     display: inline-block;
     padding-right: 10px;
     color: color-mix(in srgb, var(--default-color), transparent 50%);
@@ -824,7 +824,7 @@ section,
 }
 
 .section-title h2:before {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     width: 160px;
@@ -837,7 +837,7 @@ section,
 }
 
 .section-title h2::after {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     width: 60px;
@@ -867,7 +867,7 @@ section,
 }
 
 .hero::after {
-    content: '';
+    content: "";
     position: absolute;
     left: 50%;
     top: 0;
@@ -878,7 +878,7 @@ section,
             color-mix(in srgb, var(--background-color), transparent 90%),
             var(--background-color)
         ),
-        url('../img/hero-bg.jpg') center top no-repeat;
+        url("../img/hero-bg.jpg") center top no-repeat;
     background-size: cover;
     z-index: 0;
     border-radius: 0 0 50% 50%;
@@ -886,7 +886,7 @@ section,
 }
 
 .hero::before {
-    content: '';
+    content: "";
     position: absolute;
     left: 50%;
     top: 0;
@@ -2151,7 +2151,7 @@ section,
 }
 
 .blog-details .content blockquote:after {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     top: 0;
@@ -2239,7 +2239,7 @@ section,
 .blog-details .meta-bottom .tags li + li::before {
     padding-right: 6px;
     color: var(--default-color);
-    content: ',';
+    content: ",";
 }
 
 .blog-details .meta-bottom .share {
@@ -2438,8 +2438,8 @@ section,
     }
 }
 
-.contact .php-email-form input[type='text'],
-.contact .php-email-form input[type='email'],
+.contact .php-email-form input[type="text"],
+.contact .php-email-form input[type="email"],
 .contact .php-email-form textarea {
     font-size: 14px;
     padding: 10px 15px;
@@ -2450,19 +2450,19 @@ section,
     border-color: color-mix(in srgb, var(--default-color), transparent 80%);
 }
 
-.contact .php-email-form input[type='text']:focus,
-.contact .php-email-form input[type='email']:focus,
+.contact .php-email-form input[type="text"]:focus,
+.contact .php-email-form input[type="email"]:focus,
 .contact .php-email-form textarea:focus {
     border-color: var(--accent-color);
 }
 
-.contact .php-email-form input[type='text']::placeholder,
-.contact .php-email-form input[type='email']::placeholder,
+.contact .php-email-form input[type="text"]::placeholder,
+.contact .php-email-form input[type="email"]::placeholder,
 .contact .php-email-form textarea::placeholder {
     color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
-.contact .php-email-form button[type='submit'] {
+.contact .php-email-form button[type="submit"] {
     color: var(--contrast-color);
     background: var(--accent-color);
     border: 0;
@@ -2471,7 +2471,7 @@ section,
     border-radius: 50px;
 }
 
-.contact .php-email-form button[type='submit']:hover {
+.contact .php-email-form button[type="submit"]:hover {
     background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
@@ -2542,7 +2542,7 @@ section,
     transition: 0.3s;
 }
 
-.search-widget form input[type='text'] {
+.search-widget form input[type="text"] {
     border: 0;
     padding: 4px 10px;
     border-radius: 4px;
@@ -2551,7 +2551,7 @@ section,
     color: var(--default-color);
 }
 
-.search-widget form input[type='text']:focus {
+.search-widget form input[type="text"]:focus {
     outline: none;
 }
 
@@ -2678,7 +2678,7 @@ section,
     font-size: 14px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 .cookie-wrapper {
     position: fixed;
